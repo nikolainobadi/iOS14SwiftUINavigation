@@ -22,7 +22,7 @@ This sample iOS project is designed to demonstrate the use of SwiftUI navigation
 - **Navigation**: The project demonstrates forward and backward navigation along with modal presentation.
 
 ## Screenshots
-
+![Navigation Demo](Media/navDemo.gif)
 
 ## Contributing
 Contributions to improve this example are welcome. Please follow these steps:
