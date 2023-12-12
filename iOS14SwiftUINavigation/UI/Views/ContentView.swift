@@ -12,7 +12,7 @@ struct ContentView: View {
     
     var body: some View {
         NavigationView {
-            ItemListView(list: dataModel.items, showItem: dataModel.showItem(_:))
+            ItemListView(list: dataModel.items, onRowSelection: dataModel.showItem(_:))
                 .navigationTitle("My List")
                 .withNavButton(imageName: "plus", action: dataModel.addNewItem)
                 .navViewDestination(with: $dataModel.itemToEdit, destination: { itemToEdit in

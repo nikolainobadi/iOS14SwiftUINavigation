@@ -9,13 +9,13 @@ import SwiftUI
 
 struct ItemListView: View {
     let list: [MyItem]
-    let showItem: (MyItem) -> Void
+    let onRowSelection: (MyItem) -> Void
     
     var body: some View {
         List(list) { item in
             Text(item.name)
                 .asTappableRow {
-                    showItem(item)
+                    onRowSelection(item)
                 }
         }
     }
@@ -25,6 +25,6 @@ struct ItemListView: View {
 // MARK: - Preview
 struct ItemListView_Previews: PreviewProvider {
     static var previews: some View {
-        ItemListView(list: MyItem.defaultItemList, showItem: { _ in })
+        ItemListView(list: MyItem.defaultItemList, onRowSelection: { _ in })
     }
 }
