@@ -37,7 +37,7 @@ This repository hosts two sample iOS projects designed to demonstrate SwiftUI na
 - **Complex Navigation Flows**: Demonstrates sophisticated navigation paths and modal presentations.
 
 ## Screenshots
-![Nested Navigation Demo](Media/navDemo.gif)
+![Nested Navigation Demo](Media/nestedNavDemo.gif)
 
 ## Contributing
 We welcome contributions to enhance these examples. Please adhere to the following steps:
