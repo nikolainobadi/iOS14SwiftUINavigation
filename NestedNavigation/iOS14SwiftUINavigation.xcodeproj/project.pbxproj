@@ -1,0 +1,462 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D450D3FC2B03FEE0004206C7 /* iOS14SwiftUINavigationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D450D3FB2B03FEE0004206C7 /* iOS14SwiftUINavigationApp.swift */; };
+		D450D3FE2B03FEE0004206C7 /* ContentCoordinatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D450D3FD2B03FEE0004206C7 /* ContentCoordinatorView.swift */; };
+		D450D4002B03FEE1004206C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D450D3FF2B03FEE1004206C7 /* Assets.xcassets */; };
+		D450D4032B03FEE1004206C7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D450D4022B03FEE1004206C7 /* Preview Assets.xcassets */; };
+		D450D40D2B040159004206C7 /* MyItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D450D40C2B040159004206C7 /* MyItem.swift */; };
+		D450D4122B040C44004206C7 /* GenericListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D450D4112B040C44004206C7 /* GenericListView.swift */; };
+		D450D4142B040C69004206C7 /* ItemDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D450D4132B040C69004206C7 /* ItemDetailView.swift */; };
+		D450D4182B040CAE004206C7 /* NavViewDestinationViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = D450D4172B040CAE004206C7 /* NavViewDestinationViewModifier.swift */; };
+		D450D41A2B040D9C004206C7 /* TappableRowViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = D450D4192B040D9C004206C7 /* TappableRowViewModifier.swift */; };
+		D450D41D2B040EF0004206C7 /* ItemListDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D450D41C2B040EF0004206C7 /* ItemListDataModel.swift */; };
+		D450D41F2B040F69004206C7 /* NavButtonViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = D450D41E2B040F69004206C7 /* NavButtonViewModifier.swift */; };
+		D450D4212B0411E3004206C7 /* MyFolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = D450D4202B0411E3004206C7 /* MyFolder.swift */; };
+		D450D42A2B0412A6004206C7 /* FolderListCoordinatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D450D4292B0412A6004206C7 /* FolderListCoordinatorView.swift */; };
+		D450D42C2B0412F0004206C7 /* ItemListCoordinatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D450D42B2B0412F0004206C7 /* ItemListCoordinatorView.swift */; };
+		D450D42E2B041C4E004206C7 /* DismissableViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = D450D42D2B041C4E004206C7 /* DismissableViewModifier.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D450D3F82B03FEE0004206C7 /* iOS14SwiftUINavigation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS14SwiftUINavigation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D450D3FB2B03FEE0004206C7 /* iOS14SwiftUINavigationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS14SwiftUINavigationApp.swift; sourceTree = "<group>"; };
+		D450D3FD2B03FEE0004206C7 /* ContentCoordinatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentCoordinatorView.swift; sourceTree = "<group>"; };
+		D450D3FF2B03FEE1004206C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D450D4022B03FEE1004206C7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D450D40C2B040159004206C7 /* MyItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyItem.swift; sourceTree = "<group>"; };
+		D450D4112B040C44004206C7 /* GenericListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericListView.swift; sourceTree = "<group>"; };
+		D450D4132B040C69004206C7 /* ItemDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetailView.swift; sourceTree = "<group>"; };
+		D450D4172B040CAE004206C7 /* NavViewDestinationViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavViewDestinationViewModifier.swift; sourceTree = "<group>"; };
+		D450D4192B040D9C004206C7 /* TappableRowViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TappableRowViewModifier.swift; sourceTree = "<group>"; };
+		D450D41C2B040EF0004206C7 /* ItemListDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemListDataModel.swift; sourceTree = "<group>"; };
+		D450D41E2B040F69004206C7 /* NavButtonViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavButtonViewModifier.swift; sourceTree = "<group>"; };
+		D450D4202B0411E3004206C7 /* MyFolder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFolder.swift; sourceTree = "<group>"; };
+		D450D4292B0412A6004206C7 /* FolderListCoordinatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FolderListCoordinatorView.swift; sourceTree = "<group>"; };
+		D450D42B2B0412F0004206C7 /* ItemListCoordinatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemListCoordinatorView.swift; sourceTree = "<group>"; };
+		D450D42D2B041C4E004206C7 /* DismissableViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DismissableViewModifier.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D450D3F52B03FEE0004206C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D450D3EF2B03FEE0004206C7 = {
+			isa = PBXGroup;
+			children = (
+				D450D3FA2B03FEE0004206C7 /* iOS14SwiftUINavigation */,
+				D450D3F92B03FEE0004206C7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D450D3F92B03FEE0004206C7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D450D3F82B03FEE0004206C7 /* iOS14SwiftUINavigation.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D450D3FA2B03FEE0004206C7 /* iOS14SwiftUINavigation */ = {
+			isa = PBXGroup;
+			children = (
+				D450D40A2B040144004206C7 /* App */,
+				D450D4282B04128B004206C7 /* Coordinators */,
+				D450D4092B040141004206C7 /* UI */,
+				D450D41B2B040EE2004206C7 /* DataModel */,
+				D450D40B2B04014A004206C7 /* Model */,
+				D450D3FF2B03FEE1004206C7 /* Assets.xcassets */,
+				D450D4012B03FEE1004206C7 /* Preview Content */,
+			);
+			path = iOS14SwiftUINavigation;
+			sourceTree = "<group>";
+		};
+		D450D4012B03FEE1004206C7 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D450D4022B03FEE1004206C7 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D450D4092B040141004206C7 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				D450D4152B040C9C004206C7 /* Views */,
+				D450D4162B040CA2004206C7 /* ViewModifiers */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		D450D40A2B040144004206C7 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				D450D3FB2B03FEE0004206C7 /* iOS14SwiftUINavigationApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		D450D40B2B04014A004206C7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D450D40C2B040159004206C7 /* MyItem.swift */,
+				D450D4202B0411E3004206C7 /* MyFolder.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D450D4152B040C9C004206C7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D450D4262B041273004206C7 /* Item */,
+				D494F2A52B2BE984000E1EF0 /* Shared */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D450D4162B040CA2004206C7 /* ViewModifiers */ = {
+			isa = PBXGroup;
+			children = (
+				D450D4192B040D9C004206C7 /* TappableRowViewModifier.swift */,
+				D450D4172B040CAE004206C7 /* NavViewDestinationViewModifier.swift */,
+				D450D41E2B040F69004206C7 /* NavButtonViewModifier.swift */,
+				D450D42D2B041C4E004206C7 /* DismissableViewModifier.swift */,
+			);
+			path = ViewModifiers;
+			sourceTree = "<group>";
+		};
+		D450D41B2B040EE2004206C7 /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+				D450D41C2B040EF0004206C7 /* ItemListDataModel.swift */,
+			);
+			path = DataModel;
+			sourceTree = "<group>";
+		};
+		D450D4262B041273004206C7 /* Item */ = {
+			isa = PBXGroup;
+			children = (
+				D450D4132B040C69004206C7 /* ItemDetailView.swift */,
+			);
+			path = Item;
+			sourceTree = "<group>";
+		};
+		D450D4282B04128B004206C7 /* Coordinators */ = {
+			isa = PBXGroup;
+			children = (
+				D450D3FD2B03FEE0004206C7 /* ContentCoordinatorView.swift */,
+				D450D4292B0412A6004206C7 /* FolderListCoordinatorView.swift */,
+				D450D42B2B0412F0004206C7 /* ItemListCoordinatorView.swift */,
+			);
+			path = Coordinators;
+			sourceTree = "<group>";
+		};
+		D494F2A52B2BE984000E1EF0 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				D450D4112B040C44004206C7 /* GenericListView.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D450D3F72B03FEE0004206C7 /* iOS14SwiftUINavigation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D450D4062B03FEE1004206C7 /* Build configuration list for PBXNativeTarget "iOS14SwiftUINavigation" */;
+			buildPhases = (
+				D450D3F42B03FEE0004206C7 /* Sources */,
+				D450D3F52B03FEE0004206C7 /* Frameworks */,
+				D450D3F62B03FEE0004206C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iOS14SwiftUINavigation;
+			productName = iOS14SwiftUINavigation;
+			productReference = D450D3F82B03FEE0004206C7 /* iOS14SwiftUINavigation.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D450D3F02B03FEE0004206C7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					D450D3F72B03FEE0004206C7 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = D450D3F32B03FEE0004206C7 /* Build configuration list for PBXProject "iOS14SwiftUINavigation" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D450D3EF2B03FEE0004206C7;
+			productRefGroup = D450D3F92B03FEE0004206C7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D450D3F72B03FEE0004206C7 /* iOS14SwiftUINavigation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D450D3F62B03FEE0004206C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D450D4032B03FEE1004206C7 /* Preview Assets.xcassets in Resources */,
+				D450D4002B03FEE1004206C7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D450D3F42B03FEE0004206C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D450D41D2B040EF0004206C7 /* ItemListDataModel.swift in Sources */,
+				D450D4142B040C69004206C7 /* ItemDetailView.swift in Sources */,
+				D450D42E2B041C4E004206C7 /* DismissableViewModifier.swift in Sources */,
+				D450D41A2B040D9C004206C7 /* TappableRowViewModifier.swift in Sources */,
+				D450D3FE2B03FEE0004206C7 /* ContentCoordinatorView.swift in Sources */,
+				D450D42C2B0412F0004206C7 /* ItemListCoordinatorView.swift in Sources */,
+				D450D40D2B040159004206C7 /* MyItem.swift in Sources */,
+				D450D42A2B0412A6004206C7 /* FolderListCoordinatorView.swift in Sources */,
+				D450D41F2B040F69004206C7 /* NavButtonViewModifier.swift in Sources */,
+				D450D3FC2B03FEE0004206C7 /* iOS14SwiftUINavigationApp.swift in Sources */,
+				D450D4212B0411E3004206C7 /* MyFolder.swift in Sources */,
+				D450D4182B040CAE004206C7 /* NavViewDestinationViewModifier.swift in Sources */,
+				D450D4122B040C44004206C7 /* GenericListView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D450D4042B03FEE1004206C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D450D4052B03FEE1004206C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D450D4072B03FEE1004206C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"iOS14SwiftUINavigation/Preview Content\"";
+				DEVELOPMENT_TEAM = R8SJ24LQF3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nobadi.iOS14SwiftUINavigation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D450D4082B03FEE1004206C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"iOS14SwiftUINavigation/Preview Content\"";
+				DEVELOPMENT_TEAM = R8SJ24LQF3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nobadi.iOS14SwiftUINavigation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D450D3F32B03FEE0004206C7 /* Build configuration list for PBXProject "iOS14SwiftUINavigation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D450D4042B03FEE1004206C7 /* Debug */,
+				D450D4052B03FEE1004206C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D450D4062B03FEE1004206C7 /* Build configuration list for PBXNativeTarget "iOS14SwiftUINavigation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D450D4072B03FEE1004206C7 /* Debug */,
+				D450D4082B03FEE1004206C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D450D3F02B03FEE0004206C7 /* Project object */;
+}

@@ -1,37 +1,52 @@
-# SwiftUI Navigation Example for iOS 14
+# SwiftUI Navigation Examples for iOS 14
 
 ## Overview
-This sample iOS project is designed to demonstrate the use of SwiftUI navigation in iOS 14. It showcases a typical use case of a list-detail navigation pattern, where users can view a list of items, add new items, and edit existing ones. The project is built with Swift and employs modern SwiftUI concepts.
+This repository hosts two sample iOS projects designed to demonstrate SwiftUI navigation in iOS 14, starting with a basic pattern and progressing to more complex structures.
 
-## Features
-- **Navigation View:** Utilizes `NavigationView` for stack-based navigation.
-- **List and Detail Views:** Implements `ItemListView` to display items and `ItemDetailView` for editing item details.
-- **Custom Modifiers:** Includes custom view modifiers like `TappableRowViewModifier` and `NavButtonViewModifier` to enhance navigation and user interface.
-- **State Management:** Uses `ItemListDataModel` as an observable object for state management across views.
-- **SwiftUI Concepts:** Demonstrates SwiftUI concepts like `@StateObject`, `@Binding`, view modifiers, and more.
+### Projects
+1. **SingleViewNavigation**: Basic list-detail navigation pattern.
+2. **NestedNavigationExample**: Advanced nested navigation patterns.
+
+## SingleViewNavigation
+
+### Features
+- **Basic Navigation:** Implements simple list-detail navigation.
+- **List and Detail Views:** Uses `ItemListView` and `ItemDetailView` for displaying and editing items.
+- **SwiftUI Fundamentals:** Demonstrates basic concepts including `@StateObject`, `@Binding`, etc.
+- **Custom Navigation Modifiers:** Includes `conditionalNavigation` and other modifiers for complex scenarios.
+
+## NestedNavigationExample
+
+### Features
+- **Nested Navigation:** Demonstrates advanced nested navigation structures.
+- **Coordinator Pattern in SwiftUI:** Utilizes a Coordinator-like approach for navigation management.
+- **List and Detail Views:** Implements `GenericListView` to display items like `MyItem` and`MyFolder`, which can still be edited in `ItemDetailView`.
+- **Enhanced SwiftUI Concepts:** Showcases advanced use of `@StateObject`, `@Binding`, view modifiers, and more.
 
 ## Installation
-1. **Clone the Repository**: Clone this repository to your local machine using `git clone`.
-2. **Open the Project**: Open the `.xcodeproj` file in Xcode.
-3. **Run the Project**: Select an iOS Simulator or a connected iOS device and run the project.
+1. **Clone the Repository**: `git clone https://github.com/nikolainobadi/iOS14SwiftUINavigation`.
+2. **Open Desired Project**: Navigate to either `SingleViewNavigation` or `NestedNavigation` and open the `.xcodeproj` file in Xcode.
+3. **Run the Project**: Choose an iOS Simulator or connected device and run the project.
 
 ## Usage
-- **Viewing Items**: The `ItemListView` displays a list of items. Each item can be tapped to view and edit its details.
-- **Adding New Items**: Tap the 'plus' button in the navigation bar to add a new item.
-- **Editing Items**: Select an item from the list to edit its name in the `ItemDetailView`.
-- **Navigation**: The project demonstrates forward and backward navigation along with modal presentation.
+### SingleViewNavigation
+- **Basic Item Viewing and Editing**: Use `ItemListView` and `ItemDetailView` for basic navigation and editing tasks.
+
+### NestedNavigation
+- **Advanced Item Viewing and Editing**: Utilize `GenericListView` for enhanced viewing and editing capabilities in nested navigation contexts.
+- **Complex Navigation Flows**: Demonstrates sophisticated navigation paths and modal presentations.
 
 ## Screenshots
-![Navigation Demo](Media/navDemo.gif)
+![Nested Navigation Demo](Media/navDemo.gif)
 
 ## Contributing
-Contributions to improve this example are welcome. Please follow these steps:
+We welcome contributions to enhance these examples. Please adhere to the following steps:
 1. Fork the repository.
-2. Create a new branch (`git checkout -b feature-branch`).
+2. Create a feature branch (`git checkout -b feature/myNewFeature`).
 3. Make your changes.
-4. Commit your changes (`git commit -am 'Add some feature'`).
-5. Push to the branch (`git push origin feature-branch`).
-6. Create a new Pull Request.
+4. Commit (`git commit -m 'Add a new feature'`).
+5. Push to the branch (`git push origin feature/myNewFeature`).
+6. Submit a Pull Request.
 
 ## License
-This project is open-source and available under the [MIT License](LICENSE).
+These projects are open-source and available under the [MIT License](LICENSE).
